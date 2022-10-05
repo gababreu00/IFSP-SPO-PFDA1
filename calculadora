@@ -1,0 +1,93 @@
+#include <stdio.h>;
+#include <math.h>;
+
+int main() {
+
+int x;
+    //Primeiro número
+int y;
+    //Segundo número
+int z;
+    //Resultado
+int a;
+    //Opção menu
+
+printf ("CALCULADORA - Selecione a operação desejada: 1 - Soma; 2 - Subtração; 3 - Multiplicação; 4 - Divisão; 5 - Potência; 6 - MOD; 7 - DIV; 8 - MMC; 9 - MDC; 0 - Sair");
+scanf ("%i/n", &a);
+
+switch (a)
+{
+case 1:
+    printf("Selecionado: Soma. Digite o primeiro número:");
+    scanf("%i/n", &x);
+    printf("Digite o segundo número:");
+    scanf("%i/n", &y);
+    z = x + y;
+    printf("Resultado:", &z);
+    break;
+
+case 2:
+    printf("Selecionado: Subtração. Digite o primeiro número:");
+    scanf("%i/n", &x);
+    printf("Digite o segundo número:");
+    scanf("%i/n", &y);
+    z = x - y;
+    printf("Resultado:", &z);
+    break;
+
+case 3:
+    printf("Selecionado: Multiplicação. Digite o primeiro número:");
+    scanf("%i/n", &x);
+    printf("Digite o segundo número:");
+    scanf("%i/n", &y);
+    z = x * y;
+    printf("Resultado:", &z);
+    break;
+
+case 4:
+    printf("Selecionado: Divisão, Digite o primeiro número:");
+    scanf("%i/n", &x);
+    printf("Digite o segundo número:");
+    scanf("%i/n", &y);
+    z = x + y;
+    printf("Resultado:", &z);
+    break;
+
+case 5:
+    printf("Selecionado: Potência. Digite o número:");
+    scanf("%i/n", &x);
+    printf("Digite o expoente");
+    scanf("%i/n", &y);
+    z = x ^ y;
+    printf("Resultado:", &z);
+    break;
+
+case 6:
+    printf("Selecionado: MOD. Digite o primeiro número:");
+    scanf("%i/n", &x);
+    printf("Digite o segundo número:");
+    scanf("%i/n", &y);
+    z = x % y;
+    printf("Resultado:", &z);
+    break;
+
+case 7:
+    printf("Selecionado: DIV. Digitr o primeiro número:")
+    scanf("%i/n", &x);
+    printf("Digite o segundo número:");
+    scanf("%i/n", &y);
+    div_t div(
+   int x,
+   int y
+    );
+    printf("Resultados:", div_t)
+
+case 8:
+    
+
+default:
+    break;
+}
+
+  return 0;
+}
